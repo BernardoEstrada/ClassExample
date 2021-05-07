@@ -13,6 +13,8 @@
 		EB7E4CDD2644BFA60039E27F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7E4CDC2644BFA60039E27F /* Preview Assets.xcassets */; };
 		EB7E4CE82644BFA70039E27F /* ClassExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E4CE72644BFA70039E27F /* ClassExampleTests.swift */; };
 		EB7E4CF32644BFA70039E27F /* ClassExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E4CF22644BFA70039E27F /* ClassExampleUITests.swift */; };
+		EB7E4D042644C6D30039E27F /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E4D032644C6D30039E27F /* CountryModel.swift */; };
+		EB7E4D0C2644C8170039E27F /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7E4D0B2644C8170039E27F /* CountryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		EB7E4CEE2644BFA70039E27F /* ClassExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7E4CF22644BFA70039E27F /* ClassExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassExampleUITests.swift; sourceTree = "<group>"; };
 		EB7E4CF42644BFA70039E27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7E4D032644C6D30039E27F /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		EB7E4D0B2644C8170039E27F /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				EB7E4CD92644BFA60039E27F /* Assets.xcassets */,
 				EB7E4CDE2644BFA60039E27F /* Info.plist */,
 				EB7E4CDB2644BFA60039E27F /* Preview Content */,
+				EB7E4D032644C6D30039E27F /* CountryModel.swift */,
+				EB7E4D0B2644C8170039E27F /* CountryController.swift */,
 			);
 			path = ClassExample;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				EB7E4CD82644BFA10039E27F /* ContentView.swift in Sources */,
 				EB7E4CD62644BFA10039E27F /* ClassExampleApp.swift in Sources */,
+				EB7E4D0C2644C8170039E27F /* CountryController.swift in Sources */,
+				EB7E4D042644C6D30039E27F /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,13 +4,16 @@
 //
 //  Created by user186917 on 5/6/21.
 //
-
 import SwiftUI
 
 struct ContentView: View {
+    var countryController = CountryController()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(countryController.countries) { c in
+            Text(c.name)
+        }
+        
     }
 }
 

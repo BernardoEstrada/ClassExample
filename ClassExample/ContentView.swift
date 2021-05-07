@@ -10,10 +10,12 @@ struct ContentView: View {
     var countryController = CountryController()
     
     var body: some View {
-        List(countryController.countries) { c in
-            Text(c.name)
+        NavigationView {
+            List(countryController.countries) { c in
+                Text(c.name)
+            }
+            .navigationTitle("Countries")
         }
-        
     }
 }
 
